@@ -1,0 +1,89 @@
+<!-- Marcos Paulo Gomes Nunes Romualdo -->
+<!DOCTYPE html>
+<html lang ="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Seg Info News</title>
+
+		<link rel="stylesheet" href="contato.css">
+			
+		<style>
+			
+		</style>
+
+
+	</head>
+	<body>
+		<header>
+			<h1 class="titulo-principal">Seg Info News </h1>
+			<a href="index.html" >Home</a>
+
+		</header>
+		<img id="banner" src="banner.png">
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome completo</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Por qual canal prefere o contato?</legend>
+
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Escolha um horário de sua preferência</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+				<br>
+				
+
+				<input type="submit" value="Enviar formulario" class="enviar">
+
+				<table>
+					<thead>
+						<tr>
+							<td>Dias</td>
+							<td>Horários</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h - 23h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h - 23h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h - 23h</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</main>
+
+		<footer>
+			<p class="copyright">Seg info News - 2022</p>
+		</footer>
+	</body>
+</html>

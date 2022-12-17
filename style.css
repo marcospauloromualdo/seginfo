@@ -1,0 +1,85 @@
+/*
+MARCOS PAULO GOMES NUNES ROMUALDO
+*/
+body {
+	background: #CCCCCC;
+}
+
+.titulo-principal {
+	padding-left: 5%;
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 5%;
+}
+
+.titulo-centralizado {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+i {
+	color: green;
+}
+
+i u {
+	color: #006400;
+}
+.mapa {
+	text-align: center;
+	padding: 3em 30px;
+	background: linear-gradient(white, #CCCCCC);
+}
+
+.video {
+	text-align: center;
+	width: 940px;
+	background: linear-gradient(white, #CCCCCC);
+}
+
+.lista {
+	background: #FFFFFF;
+	padding: 10%;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.itens {
+	font-style: italic;
+}
+
+.imagemlista {
+	width: 60%;
+	opacity: 0.8;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px 20px #000000;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+
